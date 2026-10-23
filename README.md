@@ -58,3 +58,6 @@ For Gmail, use an App Password if your account supports it; do not use your norm
 
 ## Suggested narration
 "I built an invoice processing demo. The Streamlit interface accepts PDF uploads. The app extracts invoice number, vendor, date, total amount and GST from readable PDF text, validates required fields, checks duplicates using the CSV history, records each result, and archives accepted files separately from manual-review cases. The UiPath API Workflow separately demonstrates the decision logic for a supplied JSON invoice payload. Connecting the Streamlit app to the deployed UiPath endpoint is the remaining integration step."
+=======
+# invoice-automation-demo
+Invoice processing automation demo using Streamlit and UiPath
